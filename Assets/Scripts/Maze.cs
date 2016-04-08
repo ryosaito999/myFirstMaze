@@ -22,10 +22,10 @@ public class Maze : MonoBehaviour
 
     public static IntVector2[] vectors =
     {
-        new IntVector2(0,1),
-        new IntVector2(1,0),
-        new IntVector2(0,-1),
-        new IntVector2(-1,0),
+        new IntVector2(0,1),  // N
+        new IntVector2(1,0),  // E
+        new IntVector2(0,-1), // S
+        new IntVector2(-1,0), // W
     };
 
     public const int Count = 4;
